@@ -1,1 +1,1 @@
-<a href="#">wedding@stylist.ru</a>
+<a href="#">attal.rus@yandex.ru </a>

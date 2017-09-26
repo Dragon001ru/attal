@@ -1,2 +1,1 @@
-<a class="social insta" href="http://instagram.com"></a>
-<a class="social vk" href="http://vk.com"></a>
+<a class="social insta" href="https://www.instagram.com/etienneattal/"></a> <a class="social vk" href="https://vk.com/id447065737 "></a>

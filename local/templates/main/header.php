@@ -3,6 +3,11 @@ global $APPLICATION;
 $asset = Bitrix\Main\Page\Asset::getInstance();
 
 $page = [
+    'addString' => [
+        '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">',
+        '<meta name="apple-mobile-web-app-capable" content="yes">',
+        '<meta name="apple-mobile-web-app-status-bar-style" content="black">'
+    ],
     'addCss' => [
         'https://fonts.googleapis.com/css?family=Oranienbaum|PT+Serif:400,400i,700,700i',
         SITE_TEMPLATE_PATH . '/js/vendor/swiper/swiper.min.css',
@@ -12,11 +17,6 @@ $page = [
         SITE_TEMPLATE_PATH.'/js/vendor/jquery/jquery-3.2.1.min.js',
         SITE_TEMPLATE_PATH.'/js/vendor/swiper/swiper.jquery.min.js',
         SITE_TEMPLATE_PATH.'/js/app/main.js'
-    ],
-    'addString' => [
-        '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">',
-        '<meta name="apple-mobile-web-app-capable" content="yes">',
-        '<meta name="apple-mobile-web-app-status-bar-style" content="black">'
     ]
 ];
 

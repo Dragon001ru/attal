@@ -16,7 +16,21 @@
                 false
             ); ?>
         </div>
-        <div class="footer-right"><img src="<?=SITE_TEMPLATE_PATH?>/images/counter.png"></div>
+        <div class="footer-right">
+               <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                ".default",
+                array(
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "AREA_FILE_RECURSIVE" => "",
+                    "EDIT_TEMPLATE" => "",
+                    "COMPONENT_TEMPLATE" => ".default",
+                    "PATH" => SITE_TEMPLATE_PATH . "/inc/metricts.php"
+                ),
+                false
+            ); ?>
+        </div>
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:main.include",
